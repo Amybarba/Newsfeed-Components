@@ -1,9 +1,10 @@
-/* This is the data we will be using to create our article components */
-/* Look over this data, then proceed to line 91*/
+// This is the data we will be using to create our article components */
+//  Look over this data, then proceed to line 91
+
 const data = [
   {
     title: 'Lambda School Students: "We\'re the best!"',
-    date: 'Nov 5th, 2018',
+    date: "Nov 5th, 2018",
     firstParagraph: `Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando
         moff wicket tatooine luke.Solo wampa wampa calrissian yoda moff.Darth grievous darth gonk darth hutt.Darth baba skywalker
         watto fett jango maul han.Mon ewok sidious sidious lando kenobi grievous gamorrean solo.Yoda wedge utapau darth calamari.
@@ -23,8 +24,8 @@ const data = [
         moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.`
   },
   {
-    title: 'Javascript and You, ES6',
-    date: 'May 7th, 2019',
+    title: "Javascript and You, ES6",
+    date: "May 7th, 2019",
     firstParagraph: `Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost
         Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot
         snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods
@@ -43,8 +44,8 @@ const data = [
         sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`
   },
   {
-    title: 'React vs Angular vs Vue',
-    date: 'June 7th, 2019',
+    title: "React vs Angular vs Vue",
+    date: "June 7th, 2019",
     firstParagraph: `Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum dolor sit amet,
@@ -71,8 +72,40 @@ const data = [
         Castform Lotad the power that's inside Burnt Berry Makuhita. Ghost Ariados Corphish Dusclops Golbat Gligar Zweilous.`
   },
   {
-    title: 'Professional Software Development in 2019',
-    date: 'Jan 1st, 2019',
+    title: "Professional Software Development in 2019",
+    date: "Jan 1st, 2019",
+    firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
+          hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
+          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
+
+    secondParagraph: `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
+          hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
+          hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
+          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? `,
+
+    thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
+          Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
+          Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "Code Learning is a Lifelong Endeavor",
+    date: "July 4th, 2019",
+    firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
+          hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
+          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
+
+    secondParagraph: `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
+          hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
+          hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
+          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? `,
+
+    thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
+          Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
+          Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "Google, Twitter, Pair programming will lead to Success",
+    date: "July 20th, 2019",
     firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
           hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
           Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
@@ -86,6 +119,9 @@ const data = [
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
   }
+
+
+
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
@@ -110,5 +146,140 @@ const data = [
   Step 4: Map over the data, creating a component for each oject and add each component to the DOM as children of the 'articles' div.
 
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
-
 */
+// class ArticleList {
+//   constructor(articles) {
+//     this.articles = articles;
+//     this.articlesContainer = document.querySelector(".articles");
+//     this.createArticles();
+
+//     this.expandButtons = document.querySelectorAll(".expandButton");
+//     this.expandButtons.forEach(button =>
+//       button.addEventListener("click", e => this.changeArticleExpandState(e))
+//     );
+
+//     this.closeButtons = document.querySelectorAll(".close");
+//     this.closeButtons.forEach(button =>
+//       button.addEventListener("click", e => this.removeArticle(e))
+//     );
+//   }
+
+//   createArticles() {
+//     this.articles.map(article => {
+//       this.article = document.createElement("div");
+//       this.article.classList.add("article");
+//       this.articleH2 = document.createElement("h2");
+//       this.articleH2.textContent = article.title;
+//       this.articleDate = document.createElement("p");
+//       this.articleDate.classList.add("date");
+//       this.articleDate.textContent = article.date;
+//       this.articleFirstPara = document.createElement("p");
+//       this.articleFirstPara.textContent = article.firstParagraph;
+//       this.articleSecondPara = document.createElement("p");
+//       this.articleSecondPara.textContent = article.secondParagraph;
+//       this.articleThirdPara = document.createElement("p");
+//       this.articleThirdPara.textContent = article.thirdParagraph;
+//       this.articleExpandButton = document.createElement("span");
+//       this.articleExpandButton.classList.add("expandButton");
+//       this.articleExpandButton.textContent = "Click to Expand";
+//       this.articleCloseButton = document.createElement("span");
+//       this.articleCloseButton.classList.add("close");
+//       this.articleCloseButton.textContent = "x";
+
+//       this.articlesContainer.appendChild(this.article);
+//       this.article.appendChild(this.articleH2);
+//       this.article.appendChild(this.articleDate);
+//       this.article.appendChild(this.articleFirstPara);
+//       this.article.appendChild(this.articleSecondPara);
+//       this.article.appendChild(this.articleThirdPara);
+//       this.article.appendChild(this.articleExpandButton);
+//       this.article.appendChild(this.articleCloseButton);
+//     });
+//   }
+
+//   changeArticleExpandState(e) {
+//     e.stopPropagation();
+//     e.currentTarget.textContent =
+//       e.currentTarget.textContent === "Click to Expand"
+//         ? "Click to Close"
+//         : "Click to Expand";
+//     e.target.parentNode.classList.toggle("article-open");
+//   }
+
+//   removeArticle(e) {
+//     e.stopPropagation();
+//     this.articlesContainer.removeChild(e.target.parentNode);
+//   }
+// }
+
+// const myArticles = new ArticleList(data);
+
+class article {
+  constructor(articles) {
+   this.articles = articles;
+    this.articlesList = document.querySelector(".articles");
+    this.createArticles();
+
+    this.expandButtons = document.querySelectorAll(".expandButton");
+    this.expandButtons.forEach(button =>
+      button.addEventListener("click", e => this.openArticle(e))
+    );
+    this.closeButtons = document.querySelectorAll(".close");
+    this.closeButtons.forEach(button =>
+      button.addEventListener("click", e => this.closeArticle(e))
+    );
+  }
+
+  createArticles() {
+    this.articles.map(article => {
+      this.article = document.createElement("div");
+      this.article.classList.add("article");
+
+      this.h2Article = document.createElement("h2");
+      this.h2Article.textContent = article.title;
+
+      this.articleDate = document.createElement("p");
+      this.articleDate.classList.add("date");
+      this.articleDate.textContent = article.date;
+
+      this.articleFirstP = document.createElement("p");
+      this.articleFirstP.textContent = article.firstParagraph;
+
+      this.articleSecondP = document.createElement("p");
+      this.articleSecondP.textContent = article.secondParagraph;
+
+      this.articleThirdP = document.createElement("p");
+      this.articleThirdP.textContent = article.thirdParagraph;
+
+      this.articleExpandButton = document.createElement("span");
+      this.articleExpandButton.classList.add("expandButton");
+      this.articleExpandButton.textContent = "Expand";
+
+      this.articleCloseButton = document.createElement("span");
+      this.articleCloseButton.classList.add("close");
+      this.articleCloseButton.textContent = "close";
+
+      this.articlesList.appendChild(this.article);
+      this.article.appendChild(this.h2Article);
+      this.article.appendChild(this.articleDate);
+      this.article.appendChild(this.articleFirstP);
+      this.article.appendChild(this.articleSecondP);
+      this.article.appendChild(this.articleThirdP);
+      this.article.appendChild(this.articleExpandButton);
+      this.article.appendChild(this.articleCloseButton);
+    });
+  }
+  openArticle(e) {
+    e.stopPropagation();
+    e.target.textContent = e.target.textContent === "Click" 
+    ? "Close" 
+    : "Open";
+    e.target.parentNode.classList.toggle("article-open");
+  }
+closeArticle(e) {
+  e.stopPropagation();
+  this.articlesList.removeChild(e.target.parentNode);
+ }
+}
+
+const myArticles = new article(data);
